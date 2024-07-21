@@ -1,0 +1,50 @@
+body{
+    background: linear-gradient(135deg, #ffcc70 0%, #c850c0 100%);
+    height: 100vh;
+   
+}
+.choice-button{
+    padding: 8px 15px;
+    background-color: #4caf4f;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+   
+}
+.choice-button:hover{
+    background-color: #45a049;
+}
+.choice-button:active{
+    background-color: red;
+}
+.title-para{
+    text-align: center;
+}
+.my-buttons{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.result-para{
+    border: 2px solid black;
+    margin: 10px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#rock-button{
+    margin: 10px;
+}
+#paper-button{
+    margin: 10px;
+}
+.click-one{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
