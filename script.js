@@ -45,5 +45,6 @@ function ifScissor(){
         document.querySelector('#result').innerHTML = `Computer won this time 😟...`;
     } else {
         document.querySelector('#result').innerHTML = `Congrats You won 🤩...`;
+        console.log("User selected Scissor and won");
     }
 }
